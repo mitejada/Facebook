@@ -1,0 +1,26 @@
+.top {
+  display: flex;
+  position: absolute;
+  color: white;
+  background: blue;
+  padding-left: 100%;
+  padding-top: 100%;
+}
+.header {
+  display: grid;
+  color: white;
+  background-color: #9DACCB;
+  max-width: 900%;
+  grid-column: 90%;
+  border-radius: 10px
+  /* grid-column: 1 / end;
+  grid-row: 1/ 1 */
+}
+.forms {
+  display: flex;
+  justify-content: flex-end;
+}
+.email, .password{
+  display: flex;
+  position: absolute;
+}
