@@ -1,0 +1,111 @@
+html, body {
+  font-family: sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #3D5A99;
+  color: white;
+  z-index: -2;
+  max-width: auto;
+}
+
+.logo {
+  color: white;
+  /* padding-left: 100%; */
+  padding: 20px;
+  padding-left: 200px;
+  z-index: 2;
+}
+
+.login {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 150%
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  padding-left: 100px
+}
+.email, .password, .button {
+  display: flex;
+  flex-direction: column;
+  margin: 10px
+}
+.button{
+  padding-top: 19px;
+}
+
+.signUpDisplay{
+  background-color: #EDF0F5;
+  display: inline-block;
+
+}
+.inside{
+  color: black;
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+  margin-top: 40px;
+  justify-content: center;
+  float: left;
+}
+img{
+  width: 15%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+}
+.images{
+  margin-top: 42px;
+}
+h2{
+  font-size: 28px;
+  height: 1px;
+  line-height: 36px;
+}
+.signup{
+  color: black;
+  display: inline-block;
+  font-family: inherit;
+  margin-left: 120px;
+  padding: 8px 10px
+  /* margin-right: 359px; */
+  /* vertical-align: top; */
+  /* float: right; */
+  /* margin-bottom: 10px */
+}
+p{
+  margin-top: 1%
+}
+.signUpLogin{
+  display: flex;
+  flex-direction: row;
+  float: right;
+  justify-content: center;
+}
+/* .mobile{
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin: 10px;
+} */
+
+.first, .last, .mobile, .newPassword{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  margin-left: 10px;
+  height: 30px;
+  border-radius: 5px;
+}
